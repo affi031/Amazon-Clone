@@ -1,21 +1,20 @@
-.checkout{
+.checkout {
     display: flex;
     background-color: bisque;
     height: max-content;
     padding: 20px;
-}
-
-.checkout__left{
+  }
+  .checkout--left {
     background-color: white;
-}
-.checkout__title{
-    border-bottom: 1px solid black;
-    padding: 10px;
-}
-.checkout__adv{
-    width: 100% ;
+  }
+  .checkout--adv {
+    width: 100%;
     margin-bottom: 10px;
-}
-.checkout__right{
-    background-color: cyan;
-}
+  }
+  .checkout--title {
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+  .checkout--right {
+    background-color: white;
+  }
